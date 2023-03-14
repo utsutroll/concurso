@@ -53,11 +53,11 @@
 
 	<div class="grid grid-cols-5 gap-3 mt-5 pt-5 justify-items-center" id="win">
 		<div class="col-start-2 col-span-3" id="logo">
-			<img src="img/logo-mega.svg" class="w-80" alt="La Mega Tienda Turén">
+			<img src="img/logo-gira.png" class="w-80" alt="La Mega Tienda Turén">
 		</div>
 		<canvas class="z-0" id="my-canvas"></canvas>
 		<div class="col-start-1 col-span-5 md:col-start-2 md:col-span-3 mb-2">
-			<h1 class="text-3xl font-bold text-gray-800 text-center">Ganador del Sorteo</h1>
+			<h1 class="text-3xl font-bold text-gray-800 text-center">Ganador del Almuerzo a preferencia (3er Lugar)</h1>
 		</div>
 		<div class="col-start-2 col-span-3 text-3xl font-bold text-gray-800 text-center" id="cedula"></div>
 		<div class="col-start-1 col-span-5 md:col-start-2 md:col-span-3 text-3xl font-bold text-gray-800 uppercase text-center" id="winner"></div>	
