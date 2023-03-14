@@ -1,12 +1,17 @@
 <?php 
+$DB_HOST=$_ENV['DB_HOST'];
+$DB_USER=$_ENV['DB_USER'];
+$DB_PASS=$_ENV['DB_PASS'];
+$DB_NAME=$_ENV['DB_NAME'];
+
 class Conexion{
 
 	public static function Conectar(){
 
-		define('db_host','localhost');//Nombre del host
-		define('db_user','root');//Usuario de la base de datos
-		define('db_pass','root');//Contraseña de usuario de base de datos
-		define('db_name','concurso');//Nombre de la base de datos
+		define('db_host', '.$DB_HOST.');//Nombre del host
+		define('db_user','.$DB_USER.');//Usuario de la base de datos
+		define('db_pass','.$DB_PASS.');//Contraseña de usuario de base de datos
+		define('db_name','.$DB_NAME.');//Nombre de la base de datos */
 
 		//$opciones = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf-8");
 
